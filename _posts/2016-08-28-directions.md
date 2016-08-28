@@ -3,8 +3,8 @@ title:  "Directions"
 subtitle: "Getting there"
 author: "Jim"
 avatar: "img/authors/jim.JPG"
-image: "img/directions.jpg"
-date:   2016-08-28 20:00
+image: "img/directions.PNG"
+date:   2016-08-28 16:00
 ---
 
 ### The Venue
