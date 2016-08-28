@@ -86,7 +86,7 @@
 }
 
 .card__container--closed .card__title {
-	color:  #3b393d;
+	color:  #777778;
 }
 
 .card__subtitle {
@@ -97,7 +97,7 @@
 }
 
 .card__container--closed .card__subtitle {
-	color: #777778;
+	color: #777778 !important;
 }
 
 .card__copy {
