@@ -1,10 +1,10 @@
 ---
-title:  "The Venue"
-subtitle: "Ashley Wood Farm"
+title:  "Directions"
+subtitle: "Getting there"
 author: "Jim"
 avatar: "img/authors/jim.JPG"
-image: "img/venue.jpg"
-date:   2016-08-28 19:00
+image: "img/directions.jpg"
+date:   2016-08-28 20:00
 ---
 
 ### The Venue
