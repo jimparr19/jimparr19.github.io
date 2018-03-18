@@ -100,42 +100,36 @@ var projects = {
 		"dates": "April 2014 - July 2017",
 		"description": "Investigating new methods for objective measurement of clinical function and disease progression. Implementation and deployment of physical activity classification from body worn accelerometers and electrocardiogram.",
 		"images": ['']
-
-	},
-	{
-		"title": "Decision support in oil and gas drilling applications",
-		"dates": "January 2016 - April 2018",
-		"description": "Development of decision support tools using historic data and real-time telemetry to support drilling engineers during adverse events.",
-		"images": ['']
-
-	},
-	{
-		"title": "Data center energy efficiency prediction (data mining)",
-		"dates": "April 2014 - April 2015",
-		"description": "Data mining of energy and utilisation data leading to the identification of inefficiencies in humidifier and air conditioning control regimes. Development of predictive models for customer consumption using unsupervised and supervised learning methods.",
-		"images": ['']
-
 	},
 	{
 		"title": "Gearbox efficiency analysis tool (web application)",
 		"dates": "January 2016 - December 2016",
 		"description": "Proof of concept development for an international oil and gas company to support experimental testing of gearbox efficiency using different lubricants. Implementation of signal processing and statistical analysis workflow using python and django web framework. ",
 		"images": ['']
-
+	},
+	{
+		"title": "Decision support in oil and gas drilling applications",
+		"dates": "January 2016 - April 2018",
+		"description": "Development of decision support tools using historic data and real-time telemetry to support drilling engineers during adverse events.",
+		"images": ['']
 	},
 	{
 		"title": "Biosurveillance",
 		"dates": "October 2012 - January 2014",
 		"description": "Time series modelling and anomaly detection for disease outbreak detection based on multivariate hospital count data.",
 		"images": ['']
-
+	},
+	{
+		"title": "Data center energy efficiency prediction (data mining)",
+		"dates": "April 2014 - April 2015",
+		"description": "Data mining of energy and utilisation data leading to the identification of inefficiencies in humidifier and air conditioning control regimes. Development of predictive models for customer consumption using unsupervised and supervised learning methods.",
+		"images": ['']
 	},
 	{
 		"title": "Source Term Estimation",
 		"dates": "October 2012 - January 2014",
 		"description": "Real-time Bayesian inference and uncertainty quantification using sequential Monte-Carlo methods with applications in hazard assesment and decision making during disease outbreaks.",
 		"images": ['']
-
 	}],
 
 	//Display projects in resume page
