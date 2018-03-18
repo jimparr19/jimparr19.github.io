@@ -126,7 +126,7 @@ var projects = {
 		"images": ['']
 	},
 	{
-		"title": "Source Term Estimation",
+		"title": "Source term estimation of atmospheric releases",
 		"dates": "October 2012 - January 2014",
 		"description": "Real-time Bayesian inference and uncertainty quantification using sequential Monte-Carlo methods with applications in hazard assesment and decision making during disease outbreaks.",
 		"images": ['']
