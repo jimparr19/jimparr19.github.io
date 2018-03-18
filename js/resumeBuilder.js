@@ -1,6 +1,6 @@
 var bio = {
 	"name": "Jim Parr",
-	"role": "Data Scientist",
+	"role": "Senior Data Scientist",
 	"contacts": {
 		"mobile": "(+44) 07843123402",
 		"email": "jimparr19@gmail.com",
@@ -54,20 +54,20 @@ var work = {
 		"title": "Senior Data Scientist (Optimisation Squad Lead)",
 		"location": "London, UK",
 		"dates": "April 2017 - Present",
-		"description": "Optimisation Squad Lead withing the Modelling and Decision Sciences group responsible for internal IP development."
+		"description": "Optimisation Squad Lead withing the Modelling and Decision Sciences group responsible for capability development in optimisation, parameter inference and uncertainty quantification."
 	}, {
 		"employer": "McLaren Applied Technologies",
 		"title": "Data Scientist",
 		"location": "Woking, UK",
 		"dates": "April 2016 - April 2017",
-		"description": "Data Scientist withing the Software and Analytics Team applying data science and machine learning."
+		"description": "Data Scientist withing the Software and Analytics Team applying data science and machine learning across the health business unit and strategic partnerships."
 
 	}, {
 		"employer": "McLaren Applied Technologies",
 		"title": "Statistical Modelling and Data Analyst",
 		"location": "Woking, UK",
 		"dates": "January 2014 - April 2016",
-		"description": "Analytics team member focusinging on statistical modelling (machine learning) and optimisation."
+		"description": "Analytics team member focusing on statistical modelling (machine learning) and optimisation across  projects in health care, energy, consumer brands and strategic partnerships including KPMG and GSK."
 	}, {
 		"employer": "DSTL",
 		"title": "Bayesian Statistician",
@@ -96,37 +96,44 @@ var work = {
 //////////////////////////////////////////////////PROJET/////////////////////////////////////////////////////////////////
 var projects = {
 	"projects": [{
-		"title": "Platform Development - Biotelemetry",
+		"title": "Exploratory study of biotelemetry in Amyotrophic Lateral Sclerosis (platform development)",
 		"dates": "April 2014 - July 2017",
-		"description": "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.",
+		"description": "Investigating new methods for objective measurement of clinical function and disease progression. Implementation and deployment of physical activity classification from body worn accelerometers and electrocardiogram.",
 		"images": ['']
 
 	},
 	{
-		"title": "Data Mining - Data Center Efficiency",
+		"title": "Decision support in oil and gas drilling applications",
+		"dates": "January 2016 - April 2018",
+		"description": "Development of decision support tools using historic data and real-time telemetry to support drilling engineers during adverse events.",
+		"images": ['']
+
+	},
+	{
+		"title": "Data center energy efficiency prediction (data mining)",
 		"dates": "April 2014 - April 2015",
-		"description": "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.",
+		"description": "Data mining of energy and utilisation data leading to the identification of inefficiencies in humidifier and air conditioning control regimes. Development of predictive models for customer consumption using unsupervised and supervised learning methods.",
 		"images": ['']
 
 	},
 	{
-		"title": "Web Application - Gearbox Efficiency Analysis",
+		"title": "Gearbox efficiency analysis tool (web application)",
 		"dates": "January 2016 - December 2016",
-		"description": "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.",
+		"description": "Proof of concept development for an international oil and gas company to support experimental testing of gearbox efficiency using different lubricants. Implementation of signal processing and statistical analysis workflow using python and django web framework. ",
 		"images": ['']
 
 	},
 	{
-		"title": "Anomaly Detection - Bioserveilance",
+		"title": "Biosurveillance",
 		"dates": "October 2012 - January 2014",
-		"description": "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.",
+		"description": "Time series modelling and anomaly detection for disease outbreak detection based on multivariate hospital count data.",
 		"images": ['']
 
 	},
 	{
-		"title": "Bayesian Inference - Source Term Estmation",
+		"title": "Source Term Estimation",
 		"dates": "October 2012 - January 2014",
-		"description": "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.",
+		"description": "Real-time Bayesian inference and uncertainty quantification using sequential Monte-Carlo methods with applications in hazard assesment and decision making during disease outbreaks.",
 		"images": ['']
 
 	}],
