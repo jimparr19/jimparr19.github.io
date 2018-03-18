@@ -57,10 +57,10 @@ var work = {
 		"description": "Optimisation Squad Lead withing the Modelling and Decision Sciences group responsible for capability development in optimisation, parameter inference and uncertainty quantification."
 	}, {
 		"employer": "McLaren Applied Technologies",
-		"title": "Data Scientist",
+		"title": "Senior Data Scientist",
 		"location": "Woking, UK",
 		"dates": "April 2016 - April 2017",
-		"description": "Data Scientist withing the Software and Analytics Team applying data science and machine learning across the health business unit and strategic partnerships."
+		"description": "Senior Data Scientist withing the Software and Analytics Team applying data science principles across four buniness areas of motorsport, automotive, public transport and healthcare."
 
 	}, {
 		"employer": "McLaren Applied Technologies",
