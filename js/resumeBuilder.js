@@ -54,13 +54,13 @@ var work = {
 		"title": "Senior Data Scientist (Optimisation Squad Lead)",
 		"location": "London, UK",
 		"dates": "April 2017 - Present",
-		"description": "Optimisation Squad Lead withing the Modelling and Decision Sciences group responsible for capability development in optimisation, parameter inference and uncertainty quantification."
+		"description": "Optimisation Squad Lead within the Modelling and Decision Sciences group responsible for capability development in optimisation, parameter inference and uncertainty quantification."
 	}, {
 		"employer": "McLaren Applied Technologies",
 		"title": "Senior Data Scientist",
 		"location": "Woking, UK",
 		"dates": "April 2016 - April 2017",
-		"description": "Senior Data Scientist withing the Software and Analytics Team applying data science principles across four buniness areas of motorsport, automotive, public transport and healthcare."
+		"description": "Senior Data Scientist within the Software and Analytics Team applying data science principles across four business areas of motorsport, automotive, public transport and healthcare."
 
 	}, {
 		"employer": "McLaren Applied Technologies",
@@ -73,7 +73,7 @@ var work = {
 		"title": "Bayesian Statistician",
 		"location": "Sailisbury, UK",
 		"dates": "October 2012 - January 2014",
-		"description": "Bayesian Statistician within the Physical Sciences group, specialising in chemical and biological hazard assesment, simulation and prediction."
+		"description": "Bayesian Statistician within the Physical Sciences group, specialising in chemical and biological hazard assessment, simulation and prediction."
 
 	}],
 	//Display work json object in resume object
