@@ -49,33 +49,45 @@ var bio = {
 //////////////////////////////////////////////////WORK/////////////////////////////////////////////////////////////////
 
 var work = {
-	"jobs": [{
-		"employer": "McLaren Applied Technologies",
-		"title": "Senior Data Scientist (Optimisation Squad Lead)",
-		"location": "London, UK",
-		"dates": "April 2017 - Present",
-		"description": "Optimisation Squad Lead within the Modelling and Decision Sciences group responsible for capability development in optimisation, parameter inference and uncertainty quantification."
-	}, {
-		"employer": "McLaren Applied Technologies",
-		"title": "Senior Data Scientist",
-		"location": "Woking, UK",
-		"dates": "April 2016 - April 2017",
-		"description": "Senior Data Scientist within the Software and Analytics Team applying data science principles across four business areas of motorsport, automotive, public transport and healthcare."
+	"jobs": [
+		{
+			"employer": "McLaren Applied",
+			"title": "Principal Data Scientist",
+			"location": "Woking, UK",
+			"dates": "January 2019 - Present",
+			"description": "Technical Lead in the Decision Insight and Condition Insight Portfolio Teams, accountable for technical delivery."
+		},
+		{
+			"employer": "McLaren Applied Technologies",
+			"title": "Senior Data Scientist (Optimisation Squad Lead)",
+			"location": "London, UK",
+			"dates": "April 2017 - January 2019",
+			"description": "Optimisation Squad Lead within the Modelling and Decision Sciences group responsible for capability development in optimisation, parameter inference and uncertainty quantification."
+		},
+		{
+			"employer": "McLaren Applied Technologies",
+			"title": "Senior Data Scientist",
+			"location": "Woking, UK",
+			"dates": "April 2016 - April 2017",
+			"description": "Senior Data Scientist within the Software and Analytics Team applying data science principles across four business areas of motorsport, automotive, public transport and healthcare."
 
-	}, {
-		"employer": "McLaren Applied Technologies",
-		"title": "Statistical Modelling and Data Analyst",
-		"location": "Woking, UK",
-		"dates": "January 2014 - April 2016",
-		"description": "Analytics team member focusing on statistical modelling (machine learning) and optimisation across  projects in health care, energy, consumer brands and strategic partnerships including KPMG and GSK."
-	}, {
-		"employer": "DSTL",
-		"title": "Bayesian Statistician",
-		"location": "Sailisbury, UK",
-		"dates": "October 2012 - January 2014",
-		"description": "Bayesian Statistician within the Physical Sciences group, specialising in chemical and biological hazard assessment, simulation and prediction."
+		},
+		{
+			"employer": "McLaren Applied Technologies",
+			"title": "Statistical Modelling and Data Analyst",
+			"location": "Woking, UK",
+			"dates": "January 2014 - April 2016",
+			"description": "Analytics team member focusing on statistical modelling (machine learning) and optimisation across  projects in health care, energy, consumer brands and strategic partnerships including KPMG and GSK."
+		},
+		{
+			"employer": "DSTL",
+			"title": "Bayesian Statistician",
+			"location": "Sailisbury, UK",
+			"dates": "October 2012 - January 2014",
+			"description": "Bayesian Statistician within the Physical Sciences group, specialising in chemical and biological hazard assessment, simulation and prediction."
 
-	}],
+		}
+],
 	//Display work json object in resume object
 	display: function() {
 		for (job in work.jobs) {
@@ -95,42 +107,56 @@ var work = {
 
 //////////////////////////////////////////////////PROJET/////////////////////////////////////////////////////////////////
 var projects = {
-	"projects": [{
-		"title": "Exploratory study of biotelemetry in Amyotrophic Lateral Sclerosis (platform development)",
-		"dates": "April 2014 - July 2017",
-		"description": "Investigating new methods for objective measurement of clinical function and disease progression. Implementation and deployment of physical activity classification from body worn accelerometers and electrocardiogram.",
-		"images": ['']
-	},
-	{
-		"title": "Gearbox efficiency analysis tool (web application)",
-		"dates": "January 2016 - December 2016",
-		"description": "Proof of concept development for an international oil and gas company to support experimental testing of gearbox efficiency using different lubricants. Implementation of signal processing and statistical analysis workflow using python and django web framework. ",
-		"images": ['']
-	},
-	{
-		"title": "Decision support in oil and gas drilling applications",
-		"dates": "January 2016 - April 2018",
-		"description": "Development of decision support tools using historic data and real-time telemetry to support drilling engineers during adverse events.",
-		"images": ['']
-	},
-	{
-		"title": "Biosurveillance",
-		"dates": "October 2012 - January 2014",
-		"description": "Time series modelling and anomaly detection for disease outbreak detection based on multivariate hospital count data.",
-		"images": ['']
-	},
-	{
-		"title": "Data center energy efficiency prediction (data mining)",
-		"dates": "April 2014 - April 2015",
-		"description": "Data mining of energy and utilisation data leading to the identification of inefficiencies in humidifier and air conditioning control regimes. Development of predictive models for customer consumption using unsupervised and supervised learning methods.",
-		"images": ['']
-	},
-	{
-		"title": "Source term estimation of atmospheric releases",
-		"dates": "October 2012 - January 2014",
-		"description": "Real-time Bayesian inference and uncertainty quantification using sequential Monte-Carlo methods with applications in hazard assesment and decision making during disease outbreaks.",
-		"images": ['']
-	}],
+	"projects": [
+		{
+			"title": "McLaren Condition Insight Platform",
+			"dates": "June 2020",
+			"description": "Technical lead for condition-based monitoring product development. The Condition Insight Platform provides data acquisition, visualisation and analytics of high frequency time-series data from batch and streaming data sources.",
+			"images": ['']
+		},
+		{
+			"title": "Decision support product for air traffic management",
+			"dates": "June 2018 - January 2020",
+			"description": "Technical lead for the development of a simulation based digital twin product to support operational decisions at Air Navigation Service Providers.",
+			"images": ['']
+		},
+		{
+			"title": "Decision support in oil and gas drilling applications",
+			"dates": "January 2016 - April 2018",
+			"description": "Development of decision support tools using historic data and real-time telemetry to support drilling engineers during adverse events.",
+			"images": ['']
+		},
+		{
+			"title": "Exploratory study of biotelemetry in Amyotrophic Lateral Sclerosis (platform development)",
+			"dates": "April 2014 - July 2017",
+			"description": "Investigating new methods for objective measurement of clinical function and disease progression. Implementation and deployment of physical activity classification from body worn accelerometers and electrocardiogram.",
+			"images": ['']
+		},
+		{
+			"title": "Gearbox efficiency analysis tool (web application)",
+			"dates": "January 2016 - December 2016",
+			"description": "Proof of concept development for an international oil and gas company to support experimental testing of gearbox efficiency using different lubricants. Implementation of signal processing and statistical analysis workflow using python and django web framework. ",
+			"images": ['']
+		},
+		{
+			"title": "Data center energy efficiency prediction (data mining)",
+			"dates": "April 2014 - April 2015",
+			"description": "Data mining of energy and utilisation data leading to the identification of inefficiencies in humidifier and air conditioning control regimes. Development of predictive models for customer consumption using unsupervised and supervised learning methods.",
+			"images": ['']
+		},
+		{
+			"title": "Biosurveillance",
+			"dates": "October 2012 - January 2014",
+			"description": "Time series modelling and anomaly detection for disease outbreak detection based on multivariate hospital count data.",
+			"images": ['']
+		},
+		{
+			"title": "Source term estimation of atmospheric releases",
+			"dates": "October 2012 - January 2014",
+			"description": "Real-time Bayesian inference and uncertainty quantification using sequential Monte-Carlo methods with applications in hazard assesment and decision making during disease outbreaks.",
+			"images": ['']
+		}
+],
 
 	//Display projects in resume page
 	display: function() {
